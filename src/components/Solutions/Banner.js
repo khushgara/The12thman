@@ -8,12 +8,6 @@ const services = [
   { label: "SEO", icon: logo },
   { label: "Shopify", icon: logo },
   { label: "React Apps", icon: logo },
-  { label: "Node.js", icon: logo },
-  { label: "Tech Solutions", icon: logo },
-  { label: "Digital Marketing", icon: logo },
-  { label: "Data Solutions", icon: logo },
-  { label: "Event Marketing", icon: logo },
-  { label: "Media Solutions", icon: logo },
 ];
 
 const Banner = () => {
