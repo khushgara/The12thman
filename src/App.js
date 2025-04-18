@@ -1,4 +1,3 @@
-// src/App.jsx
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Header/Navbar";
 import Work from "./pages/Work";
@@ -12,7 +11,7 @@ import Footer from "./components/footer";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/The12thman">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
