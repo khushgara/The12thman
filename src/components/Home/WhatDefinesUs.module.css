@@ -1,0 +1,70 @@
+.section {
+  padding: 4rem 0;
+  text-align: center;
+  overflow: hidden; /* Prevents animation overflow */
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+  will-change: transform, opacity; /* Optimizes animations */
+}
+
+.tagline {
+  font-size: 1.25rem;
+  color: #555;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  will-change: transform, opacity;
+}
+
+.description {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  will-change: transform, opacity;
+}
+
+.divider {
+  height: 1px;
+  background-color: #ddd;
+  width: 100px;
+  margin: 2rem auto;
+  will-change: transform, opacity;
+}
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.buttonInner {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #12181f;
+  color: white;
+  font-weight: 600;
+  border-radius: 4px;
+  cursor: pointer;
+  will-change: transform, background-color;
+}
+
+/* Arrow animation */
+.buttonInner::after {
+  content: "→";
+  margin-left: 0.5rem;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.buttonInner:hover::after {
+  transform: translateX(3px);
+}

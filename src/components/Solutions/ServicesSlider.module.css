@@ -1,0 +1,96 @@
+.container {
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.sliderWrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  gap: 1.5rem;
+  width: max-content;
+  padding: 1rem 0;
+}
+.serviceCard span:hover {
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.serviceCard {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: grab;
+  user-select: none;
+  padding: 1rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 3rem;
+  overflow: hidden;
+
+  transition: all 0.3s ease;
+}
+
+.serviceCard span {
+  z-index: 2;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.2) 50%,
+    transparent 100%
+  );
+  z-index: 2;
+  pointer-events: none;
+}
+.overlay {
+  background: rgba(255, 255, 255, 0.1);
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.techBadge,
+.solutionsBadge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 0.7rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 20px;
+  font-weight: 700;
+}
+
+.techBadge {
+  background: rgba(74, 144, 226, 0.2);
+  color: #4a90e2;
+}
+
+.solutionsBadge {
+  background: rgba(238, 88, 121, 0.2);
+  color: #ee5879;
+}

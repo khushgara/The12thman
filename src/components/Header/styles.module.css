@@ -1,0 +1,103 @@
+/* src/components/Header/styles.module.css */
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.announcement {
+  background: #000;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.announcement a {
+  color: #12181f;
+  text-decoration: underline;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #0a1f44;
+}
+
+.navLinks {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.navLinks a {
+  color: #12181f;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #12181f !important;
+}
+
+.contactButton {
+  background: #12181f !important;
+  color: white !important;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contactButton:hover {
+  background: #12181f;
+}
+
+/* src/components/Header/styles.module.css */
+.navbar {
+  position: fixed; /* Fixes header at top */
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.announcement {
+  background: black;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.techWord {
+  color: #12181f; /* Highlight color for rotating word */
+}
+
+.navLinks {
+  display: flex;
+  gap: 2rem;
+}
