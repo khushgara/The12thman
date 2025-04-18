@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import styles from "./TrendingNow.module.css";
+import logo from "../logo.jpg";
 
 // Sample data with image paths
 const trendingItems = [
@@ -8,21 +9,21 @@ const trendingItems = [
     id: 1,
     type: "Blogs",
     title: "The Future Trajectory of Marketing to Drive Positive Brand Growth",
-    image: "/images/blog-future-marketing.jpg",
+    image: logo,
   },
   {
     id: 2,
     type: "Blogs",
     title:
       "Schbang, India's Largest Independent Agency, Cements its Status as a Global Challenger with European Expansion",
-    image: "/images/press-schbang.jpg",
+    image: logo,
   },
   {
     id: 3,
     type: "Blogs",
     title:
       'Dabur Chyawanprash\'s "Anti-Medicine Campaign" Returns with a Festive Twist',
-    image: "/images/press-dabur.jpg",
+    image: logo,
   },
 ];
 

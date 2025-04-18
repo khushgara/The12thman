@@ -147,65 +147,56 @@ button {
 }
 
 /* Box Positions (Corners) */
-/* Top Center */
-.position-1 {
+
+/* .position-1 {
   top: -240px;
   left: 0;
-}
+} */
 
-/* Top Right */
-.position-2 {
+.position-1 {
   top: -170px;
   left: 240px;
 }
 
-/* Right Center */
-.position-3 {
+.position-2 {
   top: 0;
   left: 320px;
 }
-
-/* Bottom Right */
+/*
 .position-4 {
   top: 170px;
   left: 240px;
 }
 
-/* Bottom Center */
 .position-5 {
   top: 240px;
   left: 0;
 }
 
-/* Bottom Left */
 .position-6 {
   top: 170px;
   left: -240px;
-}
+} */
 
-/* Left Center */
-.position-7 {
+.position-3 {
   top: 0;
   left: -320px;
 }
 
-/* Top Left */
-.position-8 {
+.position-4 {
   top: -170px;
   left: -240px;
 }
 
-/* Center Left-Top Diagonal */
-.position-9 {
+/* .position-9 {
   top: -120px;
   left: 0px;
 }
 
-/* Center Right-Bottom Diagonal */
 .position-10 {
   top: 120px;
   left: 0px;
-}
+} */
 
 /* Icons Inside Boxes */
 .service-icon {

@@ -8,6 +8,7 @@ const NavLinks = () => {
     { name: "Solutions", path: "/solutions" },
     { name: "About", path: "/about" },
     { name: "Resources", path: "/resources" },
+    { name: "Contact Us001 →", path: "/solutions" },
   ];
 
   return (
@@ -17,9 +18,6 @@ const NavLinks = () => {
           {link.name}
         </Link>
       ))}
-      <Link to="/contact" className={styles.contactButton}>
-        Contact Us →
-      </Link>
     </div>
   );
 };
