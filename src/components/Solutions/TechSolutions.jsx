@@ -31,7 +31,7 @@ const TechSolutions = () => {
   return (
     <section className={styles.section}>
       <div className={styles.container}>
-        <div className={styles.bg}>
+        {/* <div className={styles.bg}>
           <motion.h1
             className={styles.title}
             initial={{ opacity: 0, y: 20 }}
@@ -51,7 +51,7 @@ const TechSolutions = () => {
             to objectives and maximise team efficiency with tech to improve the
             customer experience.
           </motion.p>
-        </div>
+        </div> */}
         <div className={styles.servicesGrid}>
           {services.map((service, index) => (
             <motion.div

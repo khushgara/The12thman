@@ -86,7 +86,7 @@ button {
   height: 100%;
   width: 100%;
   border-radius: 10px;
-  background: linear-gradient(45deg, #2e2c5f, #12181f, #661ff0, #000000);
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
   background-size: 400% 400%;
   animation: borderAnimation 6s linear infinite;
   z-index: -1;
@@ -155,12 +155,12 @@ button {
 
 .position-1 {
   top: -170px;
-  left: 240px;
+  left: 150px;
 }
 
 .position-2 {
   top: 0;
-  left: 320px;
+  left: 200px;
 }
 /*
 .position-4 {
@@ -180,12 +180,12 @@ button {
 
 .position-3 {
   top: 0;
-  left: -320px;
+  left: -380px;
 }
 
 .position-4 {
   top: -170px;
-  left: -240px;
+  left: -320px;
 }
 
 /* .position-9 {

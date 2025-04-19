@@ -1,0 +1,99 @@
+/* Main Container for Quick Contact */
+.quickContactContainer {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 15px;
+  z-index: 999;
+}
+
+/* Message Toggle Button */
+.messageButton {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #12181f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.messageIcon {
+  color: white;
+  font-size: 24px;
+}
+
+/* Contact Icons Container (icons above the toggle button) */
+.contactOptions {
+  display: flex;
+  flex-direction: column-reverse; /* Icons appear above the button */
+  gap: 15px;
+}
+
+/* Individual Contact Icon */
+.contactOption {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #12181f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+/* Icon style */
+.icon {
+  color: white;
+  font-size: 20px;
+}
+
+/* Tooltip Style */
+.tooltip {
+  position: absolute;
+  right: 60px;
+  background: #12181f;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  white-space: nowrap;
+}
+
+.contactOption:hover .tooltip {
+  opacity: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .quickContactContainer {
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .messageButton {
+    width: 50px;
+    height: 50px;
+  }
+
+  .contactOption {
+    width: 45px;
+    height: 45px;
+  }
+
+  .tooltip {
+    display: none;
+  }
+}

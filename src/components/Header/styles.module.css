@@ -27,10 +27,12 @@
   padding: 1rem 2rem;
 }
 
+.logo a,
 .logo {
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #0a1f44;
+  text-decoration: none;
 }
 
 .navLinks {

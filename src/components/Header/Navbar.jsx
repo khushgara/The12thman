@@ -39,14 +39,14 @@ const Navbar = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2, duration: 0.5 }}
       >
-        Welcome to The12thMan <a href="/merger">Read More Here.</a>
+        Welcome to The12thMan
       </motion.div>
 
       {/* Main Navigation */}
       <nav className={styles.navContainer}>
         {/* Logo with Animated Word */}
         <div className={styles.logo}>
-          The12thMan.
+          <a href="/">The12thMan.</a>
           <motion.span
             key={currentWord}
             className={styles.techWord}

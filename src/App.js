@@ -8,20 +8,23 @@ import Careers from "./pages/Careers";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Footer from "./components/footer";
+import QuickContact from "./components/QuickContact";
 
 function App() {
   return (
-    <Router basename="/The12thman">
+    <Router basename="/">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/work" element={<Work />} />
         <Route path="/solutions" element={<Solutions />} />
-        <Route path="/about" element={<About />} />
+        <Route path="//about" element={<About />} />
         <Route path="/resources" element={<Resources />} />
         <Route path="/careers" element={<Careers />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <QuickContact />
+
       <Footer />
     </Router>
   );

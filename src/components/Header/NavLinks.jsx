@@ -6,9 +6,8 @@ import styles from "./styles.module.css";
 const NavLinks = () => {
   const links = [
     { name: "Solutions", path: "/solutions" },
-    { name: "About", path: "/about" },
+    { name: "About", path: "The12thman/about" },
     { name: "Resources", path: "/resources" },
-    { name: "Contact Us001 →", path: "/solutions" },
   ];
 
   return (
