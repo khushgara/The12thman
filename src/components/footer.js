@@ -5,7 +5,7 @@ import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   const links = [
-    { name: "About", url: "/about" },
+    { name: "About", url: "/The12thman/about" },
     { name: "Contact", url: "/contact" },
     { name: "Case Studies", url: "/case-studies" },
     { name: "Blog", url: "/blog" },

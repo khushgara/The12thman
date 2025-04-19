@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import useWordRotator from "../../hooks/useWordRotator";
 import styles from "./styles.module.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const techWords = ["Tech", "Media", "Event", "Data"];
@@ -46,7 +47,7 @@ const Navbar = () => {
       <nav className={styles.navContainer}>
         {/* Logo with Animated Word */}
         <div className={styles.logo}>
-          <a href="/">The12thMan.</a>
+          <a href="/The12thman">The12thMan.</a>
           <motion.span
             key={currentWord}
             className={styles.techWord}
@@ -77,7 +78,7 @@ const Navbar = () => {
               onMouseLeave={() => link.subItems && setIsServicesHovered(false)}
             >
               <motion.a
-                href={`/${link.name.toLowerCase()}`}
+                href={`/The12thman/${link.name.toLowerCase()}`}
                 whileHover={{
                   color: "#12181f",
                   y: -2,
@@ -109,7 +110,7 @@ const Navbar = () => {
                     {link.subItems.map((subItem) => (
                       <motion.a
                         key={subItem}
-                        href={`/services/${subItem
+                        href={`/The12thman/services/${subItem
                           .toLowerCase()
                           .replace(/\s+/g, "-")}`}
                         whileHover={{
@@ -128,8 +129,7 @@ const Navbar = () => {
           ))}
 
           {/* Contact Button */}
-          <motion.a
-            href="/contact"
+          <motion.div
             className={styles.contactButton}
             whileHover={{
               y: -3,
@@ -137,8 +137,8 @@ const Navbar = () => {
             }}
             transition={{ type: "spring", stiffness: 300 }}
           >
-            Contact Us
-          </motion.a>
+            <Link to="/contact">Contact Us</Link>
+          </motion.div>
         </div>
       </nav>
     </motion.header>

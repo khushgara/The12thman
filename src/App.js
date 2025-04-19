@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Header/Navbar";
 import Work from "./pages/Work";
 import Solutions from "./pages/Solutions";
-import About from "./pages/About";
+import Aboutus from "./pages/About";
 import Resources from "./pages/Resources";
 import Careers from "./pages/Careers";
 import Contact from "./pages/Contact";
@@ -12,13 +12,13 @@ import QuickContact from "./components/QuickContact";
 
 function App() {
   return (
-    <Router basename="/">
+    <Router basename="/The12thman">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/work" element={<Work />} />
         <Route path="/solutions" element={<Solutions />} />
-        <Route path="//about" element={<About />} />
+        <Route path="/about" element={<Aboutus />} />
         <Route path="/resources" element={<Resources />} />
         <Route path="/careers" element={<Careers />} />
         <Route path="/contact" element={<Contact />} />
