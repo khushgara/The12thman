@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/The12thman/static/css/main.b74bfeac.css",
-    "main.js": "/The12thman/static/js/main.25f9d707.js",
+    "main.css": "/The12thman/static/css/main.1cddc0f2.css",
+    "main.js": "/The12thman/static/js/main.5855dbd6.js",
     "static/js/453.102782ca.chunk.js": "/The12thman/static/js/453.102782ca.chunk.js",
     "static/media/Modern Tech Logo with Bold Design.png": "/The12thman/static/media/Modern Tech Logo with Bold Design.fb9705277ef25bacff1c.png",
     "static/media/logo.jpg": "/The12thman/static/media/logo.8b7cb6c08df964bd4cf8.jpg",
     "static/media/bg.png": "/The12thman/static/media/bg.718b79f457095fe6995f.png",
     "index.html": "/The12thman/index.html",
-    "main.b74bfeac.css.map": "/The12thman/static/css/main.b74bfeac.css.map",
-    "main.25f9d707.js.map": "/The12thman/static/js/main.25f9d707.js.map",
+    "main.1cddc0f2.css.map": "/The12thman/static/css/main.1cddc0f2.css.map",
+    "main.5855dbd6.js.map": "/The12thman/static/js/main.5855dbd6.js.map",
     "453.102782ca.chunk.js.map": "/The12thman/static/js/453.102782ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b74bfeac.css",
-    "static/js/main.25f9d707.js"
+    "static/css/main.1cddc0f2.css",
+    "static/js/main.5855dbd6.js"
   ]
 }
