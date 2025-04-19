@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import "./Banner.css";
 import logo from "../Assets/logo.jpg";
+import { Link } from "react-router-dom";
 
 const services = [
   { label: "Web Development", icon: logo },
@@ -54,7 +55,7 @@ const Banner = () => {
         </div>
 
         <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-          Get Free Audit →
+          <Link to="/contact">Get Free Audit →</Link>
         </motion.button>
       </div>
 
