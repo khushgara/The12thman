@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/The12thman/static/css/main.daec5437.css",
-    "main.js": "/The12thman/static/js/main.0d14f30b.js",
-    "static/js/453.102782ca.chunk.js": "/The12thman/static/js/453.102782ca.chunk.js",
-    "static/media/logo.jpg": "/The12thman/static/media/logo.8b7cb6c08df964bd4cf8.jpg",
-    "static/media/bg.png": "/The12thman/static/media/bg.718b79f457095fe6995f.png",
-    "index.html": "/The12thman/index.html",
-    "main.daec5437.css.map": "/The12thman/static/css/main.daec5437.css.map",
-    "main.0d14f30b.js.map": "/The12thman/static/js/main.0d14f30b.js.map",
-    "453.102782ca.chunk.js.map": "/The12thman/static/js/453.102782ca.chunk.js.map"
+    "main.css": "/static/css/main.f4f3e274.css",
+    "main.js": "/static/js/main.2408e931.js",
+    "static/js/453.102782ca.chunk.js": "/static/js/453.102782ca.chunk.js",
+    "static/media/Modern Tech Logo with Bold Design.png": "/static/media/Modern Tech Logo with Bold Design.fb9705277ef25bacff1c.png",
+    "static/media/logo.jpg": "/static/media/logo.8b7cb6c08df964bd4cf8.jpg",
+    "static/media/bg.png": "/static/media/bg.718b79f457095fe6995f.png",
+    "index.html": "/index.html",
+    "main.f4f3e274.css.map": "/static/css/main.f4f3e274.css.map",
+    "main.2408e931.js.map": "/static/js/main.2408e931.js.map",
+    "453.102782ca.chunk.js.map": "/static/js/453.102782ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.daec5437.css",
-    "static/js/main.0d14f30b.js"
+    "static/css/main.f4f3e274.css",
+    "static/js/main.2408e931.js"
   ]
 }
