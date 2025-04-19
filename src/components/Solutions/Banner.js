@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import "./Banner.css";
-import logo from "../logo.jpg";
+import logo from "../Assets/logo.jpg";
 
 const services = [
   { label: "Web Development", icon: logo },

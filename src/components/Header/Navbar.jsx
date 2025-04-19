@@ -77,25 +77,30 @@ const Navbar = () => {
               onMouseEnter={() => link.subItems && setIsServicesHovered(true)}
               onMouseLeave={() => link.subItems && setIsServicesHovered(false)}
             >
-              <motion.a
-                href={`/The12thman/${link.name.toLowerCase()}`}
+              {/* Main Navigation Link */}
+              <motion.div
                 whileHover={{
                   color: "#12181f",
                   y: -2,
                 }}
                 transition={{ duration: 0.2 }}
               >
-                {link.name}
-                {link.subItems && (
-                  <motion.span
-                    animate={{ rotate: isServicesHovered ? 180 : 0 }}
-                    transition={{ duration: 0.2 }}
-                    className={styles.dropdownIcon}
-                  >
-                    ▼
-                  </motion.span>
-                )}
-              </motion.a>
+                <Link
+                  to={`/${link.name.toLowerCase()}`}
+                  className={styles.navLink}
+                >
+                  {link.name}
+                  {link.subItems && (
+                    <motion.span
+                      animate={{ rotate: isServicesHovered ? 180 : 0 }}
+                      transition={{ duration: 0.2 }}
+                      className={styles.dropdownIcon}
+                    >
+                      ▼
+                    </motion.span>
+                  )}
+                </Link>
+              </motion.div>
 
               {/* Services Dropdown */}
               <AnimatePresence>
@@ -108,19 +113,23 @@ const Navbar = () => {
                     transition={{ duration: 0.2 }}
                   >
                     {link.subItems.map((subItem) => (
-                      <motion.a
+                      <motion.div
                         key={subItem}
-                        href={`/The12thman/services/${subItem
-                          .toLowerCase()
-                          .replace(/\s+/g, "-")}`}
                         whileHover={{
                           x: 5,
                           color: "#12181f",
                         }}
                         transition={{ type: "spring", stiffness: 300 }}
                       >
-                        {subItem}
-                      </motion.a>
+                        <Link
+                          to={`/services/${subItem
+                            .toLowerCase()
+                            .replace(/\s+/g, "-")}`}
+                          className={styles.dropdownLink}
+                        >
+                          {subItem}
+                        </Link>
+                      </motion.div>
                     ))}
                   </motion.div>
                 )}

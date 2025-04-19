@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import styles from "./AboutUs.module.css";
-import bannerImage from "./Modern Tech Logo with Bold Design.png";
+import bannerImage from "../Assets/Modern Tech Logo with Bold Design.png";
 import { FiArrowRight } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
 

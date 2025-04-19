@@ -92,7 +92,7 @@
   justify-content: center;
 }
 .bg {
-  background-image: url("../bg.png");
+  background-image: url("../Assets/bg.png");
   background-size: contain;
   background-position: top;
   overflow: hidden;

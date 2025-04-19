@@ -7,8 +7,8 @@ import Resources from "./pages/Resources";
 import Careers from "./pages/Careers";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
-import Footer from "./components/footer";
-import QuickContact from "./components/QuickContact";
+import Footer from "./components/Footer/footer";
+import QuickContact from "./components/Quickcontact/QuickContact";
 
 function App() {
   return (

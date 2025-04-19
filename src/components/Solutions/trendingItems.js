@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import styles from "./TrendingNow.module.css";
-import logo from "../logo.jpg";
+import logo from "../Assets/logo.jpg";
 
 // Sample data with image paths
 const trendingItems = [
